@@ -1,8 +1,11 @@
 import React from 'react'
+import Slidercomponent from './common/Slidercomponent'
 
 const Sliderselect = () => {
   return (
-    <div>Sliderselect</div>
+    <div>
+      <Slidercomponent/>
+    </div>
   )
 }
 
