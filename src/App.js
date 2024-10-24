@@ -10,8 +10,8 @@ function App() {
 
   const [data, setData] = useState({
     homeValue: 3000,
-    downPayment: 600,
-    loanAmount: 1000,
+    downPayment: 3000 * 0.2,
+    loanAmount: 3000 * 0.6,
     loanTerm: 5,
     interestRate: 5   
   })
