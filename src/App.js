@@ -15,7 +15,6 @@ function App() {
     loanTerm: 5,
     interestRate: 5   
   })
-  
  
   return (
     <div className="App">
@@ -24,7 +23,7 @@ function App() {
       <Grid container spacing={6}>
         <Grid item xs={12} md={6}>
           <Sliderselect data={data} setData={setData}/>
-          <Tenur/>
+          <Tenur data={data} setData={setData}/>
         </Grid>
         <Grid item xs={12} md={6}>
           <Result />
